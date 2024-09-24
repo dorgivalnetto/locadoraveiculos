@@ -22,7 +22,7 @@ public class AluguelDb implements IBancoDeDados<Aluguel>, AluguelVeiculo<Cliente
     public boolean cadastrar(Aluguel aluguel) {
 
         for (Aluguel a : alugueis) {
-            // Se já houver um aluguel com o mesmo ID, não cadastra
+            
             if (a.getId().equals(aluguel.getId())) {
                 return false;
             }
@@ -68,12 +68,12 @@ public class AluguelDb implements IBancoDeDados<Aluguel>, AluguelVeiculo<Cliente
 
     @Override
     public void alugarVeiculo(Cliente cliente, Veiculo veiculo, String localRetirada, long dataInicio) {
-        // Lógica para alugar o veículo (implementação a ser feita)
+        
     }
 
     @Override
     public void devolverVeiculo(Cliente cliente, Veiculo veiculo, String localDevolucao, long dataFim) {
-        // Lógica para devolver o veículo (implementação a ser feita)
+        
     }
 
     public boolean isVeiculoDisponivel(Veiculo veiculo) {
