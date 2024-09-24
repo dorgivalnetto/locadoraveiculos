@@ -10,10 +10,10 @@ public class AgenciaDb implements IBancoDeDados<Agencia> {
 
     @Override
     public boolean cadastrar(Agencia agencia) {
-        // RN5: Agências não podem estar duplicadas;
+        
         for (Agencia a : agencias) {
             if (a.getNome().equals(agencia.getNome()) && a.getEndereco().equals(agencia.getEndereco())) {
-                return false; // Agencia duplicada
+                return false; 
             }
         }
         agencias.add(agencia);
@@ -29,7 +29,7 @@ public class AgenciaDb implements IBancoDeDados<Agencia> {
             }
         }
         // Exceção se a agência não for encontrada
-        throw new IllegalArgumentException("Erro! Agência não encontrada.");
+        throw new IllegalArgumentException("Erro! Agência não encontrada!!");
     }
 
     @Override
