@@ -44,12 +44,12 @@ public class Main {
 
                 case 2:
                     gerenciarAlugueis(aluguelDb, scanner, veiculos);
-                    System.out.println("Falta implementar");
+                    System.out.println("Falta implementar!");
                     break;
 
                 case 3:
                     gerenciarClientes(clienteDb, scanner);
-                    System.out.println("Falta implementar");
+                    System.out.println("Falta implementar!");
                     break;
 
                 case 4:

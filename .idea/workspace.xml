@@ -21,6 +21,7 @@
       <change beforePath="$PROJECT_DIR$/locadora-de-veiculos-main/src/dominio/GerenciadorV.java" beforeDir="false" afterPath="$PROJECT_DIR$/locadora-de-veiculos-main/src/dominio/GerenciadorV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/locadora-de-veiculos-main/src/dominio/Moto.java" beforeDir="false" afterPath="$PROJECT_DIR$/locadora-de-veiculos-main/src/dominio/Moto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/locadora-de-veiculos-main/src/dominio/Veiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/locadora-de-veiculos-main/src/dominio/Veiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locadora-de-veiculos-main/src/interfaces/AluguelVeiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/locadora-de-veiculos-main/src/interfaces/AluguelVeiculo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LocadoraDeVeiculosAtualizando/src/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LocadoraDeVeiculosAtualizando/src/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LocadoraDeVeiculosAtualizando/src/dominio/GerenciadorV.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LocadoraDeVeiculosAtualizando/src/dominio/GerenciadorV.class" afterDir="false" />
     </list>
@@ -104,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727361210479</updated>
-      <workItem from="1727361212139" duration="3352000" />
+      <workItem from="1727361212139" duration="3973000" />
     </task>
     <servers />
   </component>
