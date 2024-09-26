@@ -1,7 +1,7 @@
-package interfaces;
+package src.interfaces;
 
-import dominio.Cliente;
-import dominio.Veiculo;
+import src.dominio.Cliente;
+import src.dominio.Veiculo;
 
 
 public interface AluguelVeiculo<T extends Cliente, V extends Veiculo> {

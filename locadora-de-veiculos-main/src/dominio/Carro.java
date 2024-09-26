@@ -1,4 +1,4 @@
-package dominio;
+package src.dominio;
 
 public class Carro extends Veiculo {
     public Carro(String placa, String modelo) {

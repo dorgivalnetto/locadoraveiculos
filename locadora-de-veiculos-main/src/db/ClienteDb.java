@@ -1,6 +1,6 @@
-package db;
+package src.db;
 
-import dominio.Cliente;
+import src.dominio.Cliente;
 import interfaces.IBancoDeDados;
 import java.io.*;
 import java.util.ArrayList;

@@ -1,11 +1,10 @@
 package src;
-
-import db.AgenciaDb;
-import db.AluguelDb;
-import db.ClienteDb;
-import db.VeiculoDb;
-import dominio.Agencia;
-import dominio.Veiculo;
+import src.db.AgenciaDb;
+import src.db.AluguelDb;
+import src.db.ClienteDb;
+import src.db.VeiculoDb;
+import src.dominio.Agencia;
+import src.dominio.Veiculo;
 import src.dominio.GerenciadorV;
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +14,7 @@ public class Main {
     public static void main(String[] args) {
 
         AgenciaDb agenciaDb = new AgenciaDb();
-        List<Veiculo> veiculos = new ArrayList<>();
+        List<Veiculo> veiculos = new ArrayList<Veiculo>();
         AluguelDb aluguelDb = new AluguelDb(veiculos);
         ClienteDb clienteDb = new ClienteDb();
         VeiculoDb veiculoDb = new VeiculoDb();

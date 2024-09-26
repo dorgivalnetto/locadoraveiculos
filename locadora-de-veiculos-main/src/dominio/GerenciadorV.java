@@ -1,7 +1,7 @@
 package src.dominio;
 
-import db.VeiculoDb;
-import dominio.Veiculo;
+import src.db.VeiculoDb;
+import src.dominio.Veiculo;
 import java.util.List;
 import java.util.Scanner;
 
@@ -40,8 +40,6 @@ public class GerenciadorV {
         String placa = scanner.nextLine();
         System.out.print("Digite o modelo do veículo: ");
         String modelo = scanner.nextLine();
-        scanner.nextLine();
-
         Veiculo veiculo = new Veiculo(placa, modelo);
         boolean sucesso = veiculoDb.cadastrar(veiculo);
         System.out.println(sucesso ? "Veículo cadastrado com sucesso!" : "Erro: Veículo já cadastrado.");
@@ -60,8 +58,6 @@ public class GerenciadorV {
 
         System.out.print("Digite o novo modelo do veículo: ");
         String novoModelo = scanner.nextLine();
-        scanner.nextLine();
-
         veiculo.setModelo(novoModelo);
 
         boolean sucesso = veiculoDb.alterar(veiculo);

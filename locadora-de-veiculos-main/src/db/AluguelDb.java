@@ -1,8 +1,8 @@
-package db;
-import dominio.Aluguel;
-import dominio.Cliente;
-import dominio.Veiculo;
-import interfaces.AluguelVeiculo;
+package src.db;
+import src.dominio.Aluguel;
+import src.dominio.Cliente;
+import src.dominio.Veiculo;
+import src.interfaces.AluguelVeiculo;
 import interfaces.IBancoDeDados;
 import java.io.*;
 import java.util.ArrayList;

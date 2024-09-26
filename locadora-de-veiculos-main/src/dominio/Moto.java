@@ -1,6 +1,6 @@
 package src.dominio;
 
-public class Moto extends dominio.Veiculo {
+public class Moto extends Veiculo {
     public Moto(String placa, String modelo) {
         super(placa, modelo);
     }

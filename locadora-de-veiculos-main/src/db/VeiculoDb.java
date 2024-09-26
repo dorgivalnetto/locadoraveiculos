@@ -1,6 +1,6 @@
-package db;
+package src.db;
 
-import dominio.Veiculo;
+import src.dominio.Veiculo;
 import interfaces.IBancoDeDados;
 import java.io.*;
 import java.util.ArrayList;

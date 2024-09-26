@@ -1,4 +1,4 @@
-package dominio;
+package src.dominio;
 import java.io.Serializable;
 
 public class Veiculo implements Serializable {

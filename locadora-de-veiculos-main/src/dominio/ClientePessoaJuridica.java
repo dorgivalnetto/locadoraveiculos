@@ -1,4 +1,4 @@
-package dominio;
+package src.dominio;
 
 public class ClientePessoaJuridica {
 }
